@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-17T12:08:58.192Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.85 YaBrowser/21.11.4.727 Yowser/2.5 Safari/537.36" etag="aLfNesC3zPzmF0YU8Xlt" version="16.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-17T12:17:17.311Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.85 YaBrowser/21.11.4.727 Yowser/2.5 Safari/537.36" etag="byI788Du5PkikwNwrADs" version="16.2.4" type="github">
   <diagram name="Page-1" id="b5b7bab2-c9e2-2cf4-8b2a-24fd1a2a6d21">
-    <mxGraphModel dx="3226" dy="3017" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2881" dy="3017" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -457,6 +457,23 @@
         </mxCell>
         <mxCell id="X_eCHFwMdrclcqPWtFl_-202" value="Посетитель" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="-1010" y="-1150" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X_eCHFwMdrclcqPWtFl_-206" value="Возможно следуется предусмотреть&amp;nbsp;&lt;br&gt;резервное сохранение" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="60" y="-350" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="X_eCHFwMdrclcqPWtFl_-207" value="Аварийная база" style="sketch=0;outlineConnect=0;fillColor=#3333FF;strokeColor=#6c8ebf;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.rds_postgresql_instance;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="-490" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="X_eCHFwMdrclcqPWtFl_-208" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;sketch=0;fontSize=14;strokeWidth=3;jumpStyle=arc;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="230" y="-440.43" as="sourcePoint" />
+            <mxPoint x="400" y="-440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X_eCHFwMdrclcqPWtFl_-209" value="Сохранение в случае&lt;br&gt;недоступности основной&lt;br&gt;базы данных" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="X_eCHFwMdrclcqPWtFl_-208">
+          <mxGeometry x="-0.2087" relative="1" as="geometry">
+            <mxPoint x="13" y="-43" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
